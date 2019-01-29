@@ -14,8 +14,7 @@ public class GerenciadorDeSessao {
 		this.sessoesDaSala = sessoesDaSala;
 	}
 	
-	private boolean horarioIsConflitante
-	(Sessao sessaoExistente, Sessao sessaoNova) {
+	private boolean horarioIsConflitante (Sessao sessaoExistente, Sessao sessaoNova) {
 		
 		LocalDate hoje = LocalDate.now();
 		
