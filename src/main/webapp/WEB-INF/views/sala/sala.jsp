@@ -29,8 +29,8 @@
 						class="form-control" value="${sala.preco}" /> 
                 <c:forEach items="${bindingResult.getFieldErrors('preco')}" var="error"> 
                 	<span class="text-danger">${error.defaultMessage}</span>
-				</c:forEach> --%>
-            </div> -->
+				</c:forEach>
+            </div> 
             <button type="submit" class="btn btn-primary">Gravar</button>
         </form>
         </div>
