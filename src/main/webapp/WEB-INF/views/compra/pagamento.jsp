@@ -44,8 +44,8 @@
 
             <div class="form-group">
                 <div class="col-md-6">
-                    <label for="nome">Nome:</label>
-                    <input id="nome" type="text" name="nome" class="form-control">
+                    <label for="vencimento">Vencimento:</label>
+                    <input id="vencimento" type="text" name="vencimento" class="form-control">
                 </div>
 
                 <div class="col-md-6">
